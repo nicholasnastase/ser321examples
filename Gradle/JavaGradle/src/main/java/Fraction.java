@@ -65,7 +65,7 @@ public class Fraction {
          System.out.println("");
 
       }catch (NumberFormatException e){
-         System.out.println("error, provide proper int values")
+         System.out.println("error, provide proper int values");
       }catch(Exception e) {
          e.printStackTrace();
       }

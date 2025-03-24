@@ -49,10 +49,10 @@ task runFraction(type: JavaExec) {
   classpath = sourceSets.main.runtimeClasspath
 
   main = 'Fraction'
-  def num = project.hasProperty('num) ? project.getProperty('num') : '1'
-  def denom = project.hasProperty('denom') ? project.getProperty('denom') : '1'
+  def num = project.hasProperty('num') ? project.getProperty('num') : '1'
+    def denom = project.hasProperty('denom') ? project.getProperty('denom') : '1'
 
-  args num, denom
+    args num, denom
 }
 
 // Try:
